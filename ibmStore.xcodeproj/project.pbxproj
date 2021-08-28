@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA197CBB26D9888600888830 /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA197CBA26D9888600888830 /* AppDetailViewController.swift */; };
+		BA197CC626D99F4D00888830 /* ScreenShotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA197CC526D99F4C00888830 /* ScreenShotCollectionViewCell.swift */; };
+		BA1C6DCA26D6F7B200C88852 /* SearchResultswithImagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1C6DC926D6F7B200C88852 /* SearchResultswithImagesManager.swift */; };
+		BA3A6F3826D81D5F001247B0 /* FilterCategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A6F3726D81D5F001247B0 /* FilterCategoryTableViewCell.swift */; };
+		BA3A6F4326D82377001247B0 /* SearchResultsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3A6F4226D82377001247B0 /* SearchResultsFilter.swift */; };
 		BA76C67126D5659400856DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C67026D5659400856DA5 /* AppDelegate.swift */; };
 		BA76C67326D5659400856DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C67226D5659400856DA5 /* SceneDelegate.swift */; };
-		BA76C67526D5659400856DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C67426D5659400856DA5 /* ViewController.swift */; };
+		BA76C67526D5659400856DA5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C67426D5659400856DA5 /* SearchViewController.swift */; };
 		BA76C67826D5659400856DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA76C67626D5659400856DA5 /* Main.storyboard */; };
 		BA76C67A26D5659800856DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA76C67926D5659800856DA5 /* Assets.xcassets */; };
 		BA76C67D26D5659800856DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA76C67B26D5659800856DA5 /* LaunchScreen.storyboard */; };
 		BA76C68826D5659800856DA5 /* ibmStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C68726D5659800856DA5 /* ibmStoreTests.swift */; };
 		BA76C69326D5659800856DA5 /* ibmStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C69226D5659800856DA5 /* ibmStoreUITests.swift */; };
+		BA76C6A426D5886900856DA5 /* iTunesApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C6A326D5886800856DA5 /* iTunesApiManager.swift */; };
+		BA76C6A926D588B100856DA5 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C6A826D588B100856DA5 /* App.swift */; };
+		BA76C6AE26D598E000856DA5 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C6AD26D598DF00856DA5 /* RatingView.swift */; };
+		BA76C6B326D59A9500856DA5 /* RatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA76C6B226D59A9500856DA5 /* RatingView.xib */; };
+		BA76C6B826D5A0CF00856DA5 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C6B726D5A0CF00856DA5 /* SearchResultTableViewCell.swift */; };
+		BA76C6EC26D5AFA900856DA5 /* EmptyTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA76C6EB26D5AFA900856DA5 /* EmptyTableView.xib */; };
+		BA76C6F126D5AFC200856DA5 /* EmptyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C6F026D5AFC200856DA5 /* EmptyTableView.swift */; };
+		BA76C71626D6C1D800856DA5 /* UIImageView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C71526D6C1D600856DA5 /* UIImageView+Ext.swift */; };
+		BA76C72226D6DD5500856DA5 /* ImageDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA76C72126D6DD5500856DA5 /* ImageDownloadManager.swift */; };
+		BACDC40426D876C300216947 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACDC40326D876C300216947 /* FilterViewController.swift */; };
+		BAF703FC26D8B04C0061EF8C /* SearchViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF703FB26D8B04B0061EF8C /* SearchViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +51,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA197CBA26D9888600888830 /* AppDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
+		BA197CC526D99F4C00888830 /* ScreenShotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShotCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA1C6DC926D6F7B200C88852 /* SearchResultswithImagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultswithImagesManager.swift; sourceTree = "<group>"; };
+		BA3A6F3726D81D5F001247B0 /* FilterCategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCategoryTableViewCell.swift; sourceTree = "<group>"; };
+		BA3A6F4226D82377001247B0 /* SearchResultsFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsFilter.swift; sourceTree = "<group>"; };
 		BA76C66D26D5659300856DA5 /* ibmStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ibmStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA76C67026D5659400856DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA76C67226D5659400856DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA76C67426D5659400856DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA76C67426D5659400856DA5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		BA76C67726D5659400856DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA76C67926D5659800856DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA76C67C26D5659800856DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +70,17 @@
 		BA76C68E26D5659800856DA5 /* ibmStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibmStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA76C69226D5659800856DA5 /* ibmStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibmStoreUITests.swift; sourceTree = "<group>"; };
 		BA76C69426D5659800856DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA76C6A326D5886800856DA5 /* iTunesApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesApiManager.swift; sourceTree = "<group>"; };
+		BA76C6A826D588B100856DA5 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		BA76C6AD26D598DF00856DA5 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		BA76C6B226D59A9500856DA5 /* RatingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingView.xib; sourceTree = "<group>"; };
+		BA76C6B726D5A0CF00856DA5 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		BA76C6EB26D5AFA900856DA5 /* EmptyTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyTableView.xib; sourceTree = "<group>"; };
+		BA76C6F026D5AFC200856DA5 /* EmptyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableView.swift; sourceTree = "<group>"; };
+		BA76C71526D6C1D600856DA5 /* UIImageView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Ext.swift"; sourceTree = "<group>"; };
+		BA76C72126D6DD5500856DA5 /* ImageDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloadManager.swift; sourceTree = "<group>"; };
+		BACDC40326D876C300216947 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		BAF703FB26D8B04B0061EF8C /* SearchViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +108,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA197CB626D9796C00888830 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA3A6F4226D82377001247B0 /* SearchResultsFilter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		BA76C66426D5659300856DA5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +139,16 @@
 		BA76C66F26D5659400856DA5 /* ibmStore */ = {
 			isa = PBXGroup;
 			children = (
-				BA76C67026D5659400856DA5 /* AppDelegate.swift */,
-				BA76C67226D5659400856DA5 /* SceneDelegate.swift */,
-				BA76C67426D5659400856DA5 /* ViewController.swift */,
-				BA76C67626D5659400856DA5 /* Main.storyboard */,
-				BA76C67926D5659800856DA5 /* Assets.xcassets */,
-				BA76C67B26D5659800856DA5 /* LaunchScreen.storyboard */,
+				BACDC3FF26D876B100216947 /* FilterViewController */,
 				BA76C67E26D5659800856DA5 /* Info.plist */,
+				BA76C67926D5659800856DA5 /* Assets.xcassets */,
+				BA76C6DE26D5AE5800856DA5 /* AppSetup */,
+				BA76C72726D6DDC300856DA5 /* Managers */,
+				BA76C71D26D6DD1B00856DA5 /* Extensions */,
+				BA76C72826D6DDDD00856DA5 /* Storyboards */,
+				BA76C72626D6DD9600856DA5 /* SearchViewController */,
+				BA197CBA26D9888600888830 /* AppDetailViewController.swift */,
+				BA197CC526D99F4C00888830 /* ScreenShotCollectionViewCell.swift */,
 			);
 			path = ibmStore;
 			sourceTree = "<group>";
@@ -126,6 +169,124 @@
 				BA76C69426D5659800856DA5 /* Info.plist */,
 			);
 			path = ibmStoreUITests;
+			sourceTree = "<group>";
+		};
+		BA76C6BF26D5A82B00856DA5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C6A826D588B100856DA5 /* App.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA76C6D426D5AE0F00856DA5 /* SearchResultTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BAF703FB26D8B04B0061EF8C /* SearchViewController+Ext.swift */,
+				BA76C6BF26D5A82B00856DA5 /* Models */,
+				BA76C6D526D5AE2400856DA5 /* CustomViews */,
+			);
+			name = SearchResultTableView;
+			sourceTree = "<group>";
+		};
+		BA76C6D526D5AE2400856DA5 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C6F526D5D09600856DA5 /* EmptyTableView */,
+				BA76C6B726D5A0CF00856DA5 /* SearchResultTableViewCell.swift */,
+				BA76C6F926D5D09F00856DA5 /* RatingView */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		BA76C6D926D5AE4500856DA5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C67026D5659400856DA5 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BA76C6DD26D5AE4D00856DA5 /* SceneDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C67226D5659400856DA5 /* SceneDelegate.swift */,
+			);
+			path = SceneDelegate;
+			sourceTree = "<group>";
+		};
+		BA76C6DE26D5AE5800856DA5 /* AppSetup */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C67B26D5659800856DA5 /* LaunchScreen.storyboard */,
+				BA76C6D926D5AE4500856DA5 /* AppDelegate */,
+				BA76C6DD26D5AE4D00856DA5 /* SceneDelegate */,
+			);
+			path = AppSetup;
+			sourceTree = "<group>";
+		};
+		BA76C6F526D5D09600856DA5 /* EmptyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C6EB26D5AFA900856DA5 /* EmptyTableView.xib */,
+				BA76C6F026D5AFC200856DA5 /* EmptyTableView.swift */,
+			);
+			path = EmptyTableView;
+			sourceTree = "<group>";
+		};
+		BA76C6F926D5D09F00856DA5 /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C6AD26D598DF00856DA5 /* RatingView.swift */,
+				BA76C6B226D59A9500856DA5 /* RatingView.xib */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		BA76C71D26D6DD1B00856DA5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C71526D6C1D600856DA5 /* UIImageView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BA76C72626D6DD9600856DA5 /* SearchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C67426D5659400856DA5 /* SearchViewController.swift */,
+				BA76C6D426D5AE0F00856DA5 /* SearchResultTableView */,
+			);
+			name = SearchViewController;
+			path = SearchResultTableView;
+			sourceTree = "<group>";
+		};
+		BA76C72726D6DDC300856DA5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C6A326D5886800856DA5 /* iTunesApiManager.swift */,
+				BA76C72126D6DD5500856DA5 /* ImageDownloadManager.swift */,
+				BA1C6DC926D6F7B200C88852 /* SearchResultswithImagesManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		BA76C72826D6DDDD00856DA5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BA76C67626D5659400856DA5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BACDC3FF26D876B100216947 /* FilterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BA197CB626D9796C00888830 /* Models */,
+				BACDC40326D876C300216947 /* FilterViewController.swift */,
+				BA3A6F3726D81D5F001247B0 /* FilterCategoryTableViewCell.swift */,
+			);
+			path = FilterViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +393,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA76C67D26D5659800856DA5 /* LaunchScreen.storyboard in Resources */,
+				BA76C6EC26D5AFA900856DA5 /* EmptyTableView.xib in Resources */,
 				BA76C67A26D5659800856DA5 /* Assets.xcassets in Resources */,
 				BA76C67826D5659400856DA5 /* Main.storyboard in Resources */,
+				BA76C6B326D59A9500856DA5 /* RatingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +421,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA76C67526D5659400856DA5 /* ViewController.swift in Sources */,
+				BA197CC626D99F4D00888830 /* ScreenShotCollectionViewCell.swift in Sources */,
+				BA76C6F126D5AFC200856DA5 /* EmptyTableView.swift in Sources */,
+				BA76C6B826D5A0CF00856DA5 /* SearchResultTableViewCell.swift in Sources */,
+				BA76C67526D5659400856DA5 /* SearchViewController.swift in Sources */,
+				BA76C72226D6DD5500856DA5 /* ImageDownloadManager.swift in Sources */,
+				BA76C71626D6C1D800856DA5 /* UIImageView+Ext.swift in Sources */,
+				BA3A6F4326D82377001247B0 /* SearchResultsFilter.swift in Sources */,
 				BA76C67126D5659400856DA5 /* AppDelegate.swift in Sources */,
+				BA3A6F3826D81D5F001247B0 /* FilterCategoryTableViewCell.swift in Sources */,
+				BACDC40426D876C300216947 /* FilterViewController.swift in Sources */,
+				BA76C6A926D588B100856DA5 /* App.swift in Sources */,
+				BA76C6AE26D598E000856DA5 /* RatingView.swift in Sources */,
+				BA197CBB26D9888600888830 /* AppDetailViewController.swift in Sources */,
+				BAF703FC26D8B04C0061EF8C /* SearchViewController+Ext.swift in Sources */,
+				BA76C6A426D5886900856DA5 /* iTunesApiManager.swift in Sources */,
 				BA76C67326D5659400856DA5 /* SceneDelegate.swift in Sources */,
+				BA1C6DCA26D6F7B200C88852 /* SearchResultswithImagesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
