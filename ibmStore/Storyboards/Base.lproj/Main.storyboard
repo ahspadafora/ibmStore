@@ -406,6 +406,7 @@
                         <outlet property="appPriceLabel" destination="69X-n9-cOH" id="2lT-YD-BgR"/>
                         <outlet property="appSizeLabel" destination="hTH-Jd-FUr" id="Dau-2H-x41"/>
                         <outlet property="appTitleLabel" destination="hEz-Oz-JUF" id="Qvw-5I-Cgc"/>
+                        <outlet property="appVersionLabel" destination="UPZ-b5-zYE" id="ODp-7n-2tH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1WF-VL-5U6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

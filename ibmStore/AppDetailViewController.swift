@@ -17,6 +17,9 @@ class AppDetailViewController: UIViewController, UICollectionViewDataSource, UIC
     @IBOutlet weak var appIconImageView: UIImageView!
     
     @IBOutlet weak var appDetailLabel: UILabel!
+    
+    @IBOutlet weak var appVersionLabel: UILabel!
+    
     let byteFormatter = ByteCountFormatter()
     
     var appToDisplay: App? {
@@ -33,6 +36,7 @@ class AppDetailViewController: UIViewController, UICollectionViewDataSource, UIC
                 let byteSize = Int64(self.appToDisplay?.size ?? "0")
                 let byteString = self.byteFormatter.string(fromByteCount: byteSize ?? 0)
                 self.appSizeLabel.text = byteString
+                self.appVersionLabel.text = self.appToDisplay?.version ?? ""
             }
         }
     }

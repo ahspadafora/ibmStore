@@ -146,6 +146,7 @@
 				BA76C72726D6DDC300856DA5 /* Managers */,
 				BA76C71D26D6DD1B00856DA5 /* Extensions */,
 				BA76C72826D6DDDD00856DA5 /* Storyboards */,
+				BA76C6BF26D5A82B00856DA5 /* Models */,
 				BA76C72626D6DD9600856DA5 /* SearchViewController */,
 				BA197CBA26D9888600888830 /* AppDetailViewController.swift */,
 				BA197CC526D99F4C00888830 /* ScreenShotCollectionViewCell.swift */,
@@ -183,7 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				BAF703FB26D8B04B0061EF8C /* SearchViewController+Ext.swift */,
-				BA76C6BF26D5A82B00856DA5 /* Models */,
 				BA76C6D526D5AE2400856DA5 /* CustomViews */,
 			);
 			name = SearchResultTableView;

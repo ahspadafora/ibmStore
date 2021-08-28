@@ -13,7 +13,7 @@ struct iTunesSearchAPIResult: Codable {
 
 struct App: Codable {
     enum CodingKeys: String, CodingKey {
-        case averageUserRating, screenshotUrls, trackId, formattedPrice, description, price
+        case averageUserRating, screenshotUrls, trackId, formattedPrice, description, price, version
         case appTitle = "trackName"
         case category = "primaryGenreName"
         case appIcon100 = "artworkUrl100"
@@ -37,4 +37,5 @@ struct App: Codable {
     var formattedPrice: String?
     var price: Float?
     var size: String?
+    var version: String
 }
